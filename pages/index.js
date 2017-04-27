@@ -9,8 +9,13 @@ const Components = {
 }
 
 export default class App extends React.Component {
-  getContent () {
+  static async getInitialProps () {
     const items = shuffle(data).slice(0, 2)
+    return { items }
+  }
+
+  getContent () {
+    const { items } = this.props
     return items.map((item, index) => {
       const Component = Components[item.type]
       return (<Component key={index} {...item}/>)
