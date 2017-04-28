@@ -1109,13 +1109,13 @@ date-now@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
 
-debug@2.6.4:
+debug@2.6.4, debug@^2.2.0:
   version "2.6.4"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.4.tgz#7586a9b3c39741c0282ae33445c4e8ac74734fe0"
   dependencies:
     ms "0.7.3"
 
-debug@^2.1.1, debug@^2.2.0:
+debug@^2.1.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.1.tgz#79855090ba2c4e3115cc7d8769491d58f0491351"
   dependencies:
@@ -2107,9 +2107,9 @@ ncp@~2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ncp/-/ncp-2.0.0.tgz#195a21d6c46e361d2fb1281ba38b91e9df7bdbb3"
 
-"next@git://github.com/arunoda/next.js.git#dynamic-import":
-  version "2.2.0"
-  resolved "git://github.com/arunoda/next.js.git#fc34484e5e24680c0343065be6a82d3e043cbd37"
+next@2.3.0-alpha1:
+  version "2.3.0-alpha1"
+  resolved "https://registry.yarnpkg.com/next/-/next-2.3.0-alpha1.tgz#67988bf8201939ba79f97ac503e759357cc018fc"
   dependencies:
     ansi-html "0.0.7"
     babel-core "6.24.0"
