@@ -19,8 +19,7 @@
   },
   "homepage": "https://github.com/arunoda/dynamic-comp-chat#readme",
   "dependencies": {
-    "next": "^2.2.0",
-    "next.js": "^1.0.3",
+    "next": "file:///data/zeit/next.js",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   }
